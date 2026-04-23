@@ -1,0 +1,55 @@
+# WordPress core — не трекаем, только свой код
+/wp-admin/
+/wp-includes/
+/index.php
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/license.txt
+/readme.html
+/wp-config-sample.php
+/local-xdebuginfo.php
+
+# Конфиденциальные данные
+wp-config.php
+
+# Медиафайлы (слишком большие)
+wp-content/uploads/
+
+# Local by Flywheel
+.protect
+.tmb
+
+# Бэкапы
+Backup/
+*.zip
+*.sql
+*.sql.gz
+
+# Кэш и временные файлы
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/backups-dup-lite/
+wp-content/smush-webp/
+wp-content/wp-cache-config.php
+*.log
+
+# Claude Code
+.claude/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

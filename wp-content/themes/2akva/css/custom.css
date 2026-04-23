@@ -1,0 +1,64 @@
+.tov-img{
+	height: 244px;
+}
+
+img{max-width: 100%;height: auto}
+img.alignleft   {float:left; margin-right:10px;margin-bottom: 10px;}
+img.alignright  {float:right; margin-left:10px;margin-bottom: 10px;}
+img.aligncenter {margin-left:auto; margin-right:auto; display:block;margin-bottom: 10px;}
+
+.alignleft   {float:left; margin-right:10px;margin-bottom: 10px;}
+.alignright  {float:right; margin-left:10px;margin-bottom: 10px;}
+.aligncenter {margin-left:auto; margin-right:auto; display:block;margin-bottom: 10px;}
+
+/*.topsec{
+	overflow: hidden;
+}*/
+
+table td{
+	padding: 5px;
+	text-align: center;
+}
+
+.icn {
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.w-nav-link{
+	padding: 20px 10px;
+}
+
+.dropdown-toggle {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.dropdown-toggle.w--open {
+	background-color: #004d8c;
+}
+.dropdown {
+	display: block;
+}
+.dropdown-list-2 {
+	left: 0px;
+	top: 0px;
+}
+
+.dropdown-list-2.w--open {
+	left: 100%;
+	top: 0px;
+	background-color: #004d8c;
+}
+
+.modal{
+	z-index: 1000;
+}
+
+/* CSS hover for nav dropdowns — replaces broken Webflow JS hover (jQuery 3 incompatibility) */
+nav.navmenu > .w-dropdown:hover > .w-dropdown-list {
+	display: block;
+}
